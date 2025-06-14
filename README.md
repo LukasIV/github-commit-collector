@@ -60,6 +60,18 @@ export GITHUB_TOKEN="your_token_here"
 python3 demo_pipeline.py
 ```
 
+### 3. Data Analysis with query_examples.py
+```bash
+python3 query_examples.py
+```
+
+The script will perform several analyses:
+- Author Productivity: Shows top contributors by commit count and lines changed
+- Temporal Patterns: Visualizes commit frequency by hour and day of week
+- Commit Message Analysis: Identifies common commit message patterns
+- Change Patterns: Analyzes file change statistics
+
+
 ## Rate Limiting
 
 The GitHub API has rate limits:
